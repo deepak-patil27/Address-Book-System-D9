@@ -92,9 +92,10 @@ public class Contacts {
 
 	@Override
 	public String toString() {
-		return "Contact{" + ",firstName='" + firstName + '\'' + ",lastName='" + lastName + '\'' + ",address='" + address
-				+ '\'' + ",city='" + city + '\'' + ",state='" + state + '\'' + ",zip='" + zip + '\'' + ",phoneNumber='"
-				+ phoneNumber + '\'' + ",email='" + email + '\'' + '}';
+		return "Contacts [firstName=" + firstName + ", lastName=" + lastName + ", address=" + address + ", city=" + city
+				+ ", state=" + state + ", zip=" + zip + ", phoneNumber=" + phoneNumber + ", email=" + email + "]";
 	}
+
+	
 
 }
